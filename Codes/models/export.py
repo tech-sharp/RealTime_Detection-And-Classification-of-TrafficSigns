@@ -91,4 +91,4 @@ if __name__ == '__main__':
         print('CoreML export failure: %s' % e)
 
     # Finish
-    print('\nExport complete (%.2fs). Visualize with https://github.com/lutzroeder/netron.' % (time.time() - t))
+    print('\nExport complete (%.2fs). Visualize with https://github.com/lutzroeder/netron.' % (time.time() - t))
