@@ -69,4 +69,4 @@ class FReLU(nn.Module):
         self.bn = nn.BatchNorm2d(c1)
 
     def forward(self, x):
-        return torch.max(x, self.bn(self.conv(x)))
+        return torch.max(x, self.bn(self.conv(x)))
