@@ -107,4 +107,4 @@ def compute_ap(recall, precision):
         i = np.where(mrec[1:] != mrec[:-1])[0]  # points where x axis (recall) changes
         ap = np.sum((mrec[i + 1] - mrec[i]) * mpre[i + 1])  # area under curve
 
-    return ap, mpre, mrec
+    return ap, mpre, mrec
